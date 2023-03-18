@@ -1,0 +1,19 @@
+Requirement: Develop a property transfer application which has following logic.
+
+
+1. Add a new property
+
+	Id, owner name, value, area
+
+This function should only be called by owner of the smart contract
+you should not allow property to be added if the value of the property is more than 10,000 because it need some approval from government
+
+
+
+2. Query property  by id
+
+	Before query do a check that property does exist, if not then throw error message
+
+3. Transfer the ownership of the property to other person
+
+
